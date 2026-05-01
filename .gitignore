@@ -1,0 +1,27 @@
+# Secrets — NEVER commit these
+.env
+.env.local
+.env.production
+.env.development
+service-account.json
+*-firebase-adminsdk-*.json
+credentials.json
+
+# MCP / Claude local config — local only, not for sharing
+.mcp.json
+CLAUDE.local.md
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+/tmp/
+*.tmp
